@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TaskManeger_01.CRUD
 {
-    public class Read_Info
+    internal class Read_Info
     {
         char[] sta_End = new char[] {'a','p','A','P' };
        public Read_Info()
