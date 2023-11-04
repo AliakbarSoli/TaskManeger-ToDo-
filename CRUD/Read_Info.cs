@@ -20,6 +20,7 @@ namespace TaskManeger_01.CRUD
 
             Console.WriteLine("AM Or PM (A,P) ");
             char start = Convert.ToChar(Console.ReadLine());
+
             for (int i = 0; i <= 3; i++)
             {
                 
@@ -36,14 +37,15 @@ namespace TaskManeger_01.CRUD
                              if (End== sta_End[j])
                              {
                             Console.WriteLine("Done! Information Saved");
-                        }
+                             }
                          }
-                }
-                else
-                {
+                    break;
+                    }
+                    else
+                    {
                     Console.WriteLine("Please Enter TheCorrect Character (a,A,p,P)");
                     break;
-                }
+                    }
             }
 
 
